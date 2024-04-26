@@ -1,0 +1,50 @@
+.main{
+    margin: 0px auto;
+    height: 500px;
+    width: 800px;
+    border: 1px solid burlywood;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.number{
+    height: 90px;
+    width: 100px;
+    border: 1px solid green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.box2{
+    width: 400px;
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    font-size: larger;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.number:hover{
+    background-color: teal;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.result_box{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 65px;
+}
