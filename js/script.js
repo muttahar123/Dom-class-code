@@ -38,10 +38,25 @@
 // alert('The no. of space in ur sentence is : '+ length)
 
 var userClick = document.getElementById('user_num')
+var result_num = document.getElementById('Result_num')
+var result_box = document.getElementById('result_box')
+
 
 function checkNumber(userNum){
   // alert(userNum)
   userClick.innerHTML=userNum
+  var randomNumber = Math.ceil(Math.random() * 6)
+  result_num.innerText = randomNumber
+
+  if (userNum == randomNumber ) {
+    
+      result_box.innerText = 'Congrats!, You won'
+      result_box.style.color = 'green'
+  } else {
+      result_box.innerText = 'Soory!, You lose , Try Again'
+      result_box.style.color = 'red'
+  }
+  
   
 
 
